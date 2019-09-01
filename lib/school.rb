@@ -3,8 +3,6 @@ class School
   def roster
     @roster = {}
     
-    @roster[@grade] = []
-    @roster[@grade] << @student
   end
   
   def initialize(name)
@@ -15,6 +13,8 @@ class School
     @student = student
     @grade = grade
     
+    @roster[@grade] = []
+    @roster[@grade] << @student
   end 
   
   
