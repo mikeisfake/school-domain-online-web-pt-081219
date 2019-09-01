@@ -12,6 +12,7 @@ class School
     @student = student
     @grade = grade
     
+    @roster[grade] = "foo"
   end 
   
   
