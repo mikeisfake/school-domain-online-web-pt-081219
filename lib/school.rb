@@ -13,6 +13,7 @@ class School
     @grade = grade
     
     roster[grade] = []
+    roster[grade] << student
   end 
   
   
